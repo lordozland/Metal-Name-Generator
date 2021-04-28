@@ -1,4 +1,4 @@
-# Three
+# Metal Name Generator
 
 Strange.  
 
