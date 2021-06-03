@@ -1,10 +1,9 @@
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
+var generateBtn = document.getElementsByClassName("btn");
 
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+function createBand() {
+  var Band = generatePassword();
+  var BandName = document.querySelector("#password");
 
   passwordText.value = password;
 
