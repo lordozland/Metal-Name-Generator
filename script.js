@@ -1,13 +1,18 @@
-var generateBtn = document.getElementsByClassName("btn");
+// var generateBtn = document.getElementsByClassName("btn");
 
 // Write password to the #password input
-function createBand() {
+// function createBand() {
   // var Band = generatePassword();
   // var BandName = document.querySelector("#bandcard");
-  console.log("Done")
+  // console.log("Done")
   // passwordText.value = password;
-
-}
+// }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// generateBtn.addEventListener("click", writePassword);
+
+
+function createBand() {
+  console.log("Done");
+
+}

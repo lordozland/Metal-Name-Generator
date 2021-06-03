@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: 'Metal Mania', cursive;
 }
 
 html,
@@ -13,7 +14,6 @@ body,
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #308fee;
 }
 
@@ -97,7 +97,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#bandcard {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -113,7 +113,7 @@ button[disabled] {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px dashed #c0c7cf;
-  border-radius: 6px;
+  border-radius: 50%;
   resize: none;
   overflow: hidden;
 }
