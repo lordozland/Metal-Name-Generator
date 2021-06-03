@@ -3,7 +3,7 @@ var generateBtn = document.getElementsByClassName("btn");
 // Write password to the #password input
 function createBand() {
   // var Band = generatePassword();
-  // var BandName = document.querySelector("#password");
+  // var BandName = document.querySelector("#bandcard");
   console.log("Done")
   // passwordText.value = password;
 
