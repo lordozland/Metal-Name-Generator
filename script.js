@@ -17,7 +17,7 @@
 function createBand() {
   console.log("Done");
   var bandcard = document.getElementById("bandcard");
-  var gambit = document.createTextNode(MetalGuy[Math.floor((Math.random() * 100) + MetalGuy.length)]);
+  var gambit = document.createTextNode(MetalGuy[0]);
   var MetalGuy = [
     "Naught",
     "Harold the Barbarian", 
@@ -69,7 +69,7 @@ function createBand() {
     "Dance Mosh Hipposh",
     "Ghosts (a Collective)",
   ];
-  var You = MetalGuy[Math.floor((Math.random() * 100) + MetalGuy.length)]
+  // var You = MetalGuy[Math.floor((Math.random() * 100) + MetalGuy.length)];
   // var randomItem = MetalGuy[Math.floor(Math.random()*MetalGuy.length)];
   bandcard.appendChild(gambit);
 }
