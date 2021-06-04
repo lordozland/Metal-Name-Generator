@@ -12,7 +12,11 @@
 // generateBtn.addEventListener("click", writePassword);
 
 
+
+
 function createBand() {
   console.log("Done");
-
+  var bandcard = document.getElementById("bandcard");
+  var gambit = document.createTextNode("guy");
+  bandcard.appendChild(gambit);
 }
