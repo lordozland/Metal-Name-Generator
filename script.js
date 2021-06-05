@@ -86,3 +86,9 @@ function createBand() {
   // }
   bandcard.appendChild(gambit);
 }
+
+
+// window.onload = init;
+// if (i > 1) {
+//    return;
+// }
