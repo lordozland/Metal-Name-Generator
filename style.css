@@ -5,6 +5,16 @@
   font-family: 'Metal Mania', cursive;
 }
 
+:root {
+  --bgrd: #0e2236;
+  --othz: hsla(206, 54%, 55%, 0.63);
+  --butz: hsl(360, 91%, 36%);
+  --expr: #e7e9eb;
+  --grr: #c0c7cf;
+  --textfont1: rgba(160, 11, 11, 0.699);
+  --textfont2: black;
+}
+
 html,
 body,
 .wrapper {
@@ -14,7 +24,7 @@ body,
 }
 
 body {
-  background-color: #308fee;
+  background-color: var(--bgrd);
 }
 
 .wrapper {
@@ -27,26 +37,33 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: black;
+  color: var(--textfont1);
+  font-size: 200%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 125%;
 }
 
 .card {
-  background-color: hsl(207, 30%, 78%);
-  border-radius: 5px;
+  background-color: var(--othz);
+  border-radius: 20px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: var(--textfont2);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  text-align: center;
 }
 
 .card-header::after {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: var(--expr);
   height: 2px;
 }
 
@@ -62,7 +79,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: var(--expr);
   height: 2px;
 }
 
@@ -74,7 +91,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: var(--butz);
   border-radius: 25px;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -90,7 +107,7 @@ header {
 
 button[disabled] {
   cursor: default;
-  background: #c0c7cf;
+  background: var(--grr);
 }
 
 .float-right {
@@ -104,10 +121,10 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 37px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 85px;
+  padding-bottom: 25px;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
@@ -116,6 +133,7 @@ button[disabled] {
   border-radius: 100px;
   resize: none;
   overflow: hidden;
+  height: 100px;
 }
 
 @media (max-width: 690px) {
