@@ -85,6 +85,8 @@ function createBand() {
   //   }
   // }
   bandcard.appendChild(gambit);
+  document.getElementsById('generate').onclick = return;
+  
 }
 
 
@@ -92,3 +94,5 @@ function createBand() {
 // if (i > 1) {
 //    return;
 // }
+
+// create an alertbox for the name to circumvent the return or window.o
