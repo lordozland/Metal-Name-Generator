@@ -17,7 +17,6 @@
 function createBand() {
   console.log("Done");
   var bandcard = document.getElementById("bandcard");
-  var gambit = document.createTextNode();
   var MetalGuy = [
     "Naught",
     "Harold the Barbarian", 
@@ -77,6 +76,7 @@ function createBand() {
     if ("click") {
       let i = Math.floor((Math.random() * 49) + MetalGuy.length);
     };
+    var gambit = document.createTextNode(newName);
   };
   // var You = MetalGuy[Math.floor((Math.random() * 100) + MetalGuy.length)];
   // var randomItem = MetalGuy[Math.floor(Math.random()*MetalGuy.length)];
