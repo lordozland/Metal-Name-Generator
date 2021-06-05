@@ -85,9 +85,20 @@ function createBand() {
   //   }
   // }
   bandcard.appendChild(gambit);
-  document.getElementsById('generate').onclick = return;
+
+  var clickCounter = 0;
+  document.addEventListener('click', function () {
+    if (clickCounter > 0) {
+      return;
+    };
+  });
   
-}
+  // var clickCounter = 0;
+
+  // .addEventListener('click', function () {
+  //       step = (clickCounter++ % 2 === 0 ? 3 : 0);
+  // }, true);
+};
 
 
 // window.onload = init;
