@@ -73,9 +73,11 @@ function createBand() {
 
   for (let i = 0; i < MetalGuy.length; i++) {
     const newName = MetalGuy[i];
-    var gambit = document.createTextNode(newName);
+    var gambit = newName;
   };
-  // var You = MetalGuy[Math.floor((Math.random() * 100) + MetalGuy.length)];
+  var You = MetalGuy[Math.floor((Math.random() * MetalGuy.length))];
+
+  console.log(You);
   // var randomItem = MetalGuy[Math.floor(Math.random()*MetalGuy.length)];
 
   // for (let i = 0; i < characters.length; i++) {
@@ -84,7 +86,9 @@ function createBand() {
   //     return res.json(currentChar);
   //   }
   // }
-  bandcard.appendChild(gambit);
+
+  console.log(gambit)
+  bandcard.innerHTML = You;
   
   // var clickCounter = 0;
 

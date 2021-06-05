@@ -9,3 +9,5 @@ No regurtz!
 Removed Dio.....  🥺 😢 😭
 
 For loops and if statement practice. 
+
+Complete-ish! 
