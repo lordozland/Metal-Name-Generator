@@ -66,12 +66,12 @@ function createBand() {
     "Witch of Darkness",
     "Nihilism Bro",
     "Dance Mosh Hipposh",
-    "Ghosts (a Collective)",
+    "People (a Collective)",
   ];
 
   // 48 names
 
-  for (let i = 49; i < MetalGuy.length; i++) {
+  for (let i = 0; i < MetalGuy.length; i++) {
     const newName = MetalGuy[i];
     var gambit = document.createTextNode(newName);
   };
