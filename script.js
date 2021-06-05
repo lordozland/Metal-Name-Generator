@@ -85,13 +85,6 @@ function createBand() {
   //   }
   // }
   bandcard.appendChild(gambit);
-
-  var clickCounter = 0;
-  document.addEventListener('click', function () {
-    if (clickCounter > 0) {
-      return;
-    };
-  });
   
   // var clickCounter = 0;
 
@@ -100,6 +93,10 @@ function createBand() {
   // }, true);
 };
 
+// function repeat() {
+//   window.ondblclick = init;
+//   console.log("dblclick");
+// }
 
 // window.onload = init;
 // if (i > 1) {
